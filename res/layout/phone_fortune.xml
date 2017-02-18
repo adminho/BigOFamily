@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gray_background"
+    android:orientation="vertical" >
+       <TextView
+   		    android:id="@+id/textView1"
+   		    android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:gravity="center"
+        	android:layout_marginBottom="5dp"
+        	android:textSize="20sp"
+        	android:textColor="#0000FF"
+        	android:focusable="true"
+        	android:text="@string/txt_check_phone"/> 
+     
+      	<TextView
+            android:id="@+id/mobileOper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/phoneNumber"
+            android:layout_alignRight="@+id/phoneNumber"
+            android:layout_below="@+id/textView1"
+            android:layout_marginBottom="5dp"
+            android:ems="10"
+            android:textSize="25sp"/>
+      	
+        <EditText
+            android:id="@+id/phoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mobileOper"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="50dp"
+            android:background="@color/white"
+            android:ems="10"
+            android:textSize="18sp"
+            android:hint="@string/hint_phone_number"
+            android:inputType="phone" />
+
+        <ImageButton
+            android:id="@+id/btnSearch1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/phoneNumber"
+            android:padding="2dp"
+            android:layout_toRightOf="@+id/hero_btn"
+            android:src="@drawable/search_button"
+            android:contentDescription="@string/content_description"
+            android:onClick="onSearch" />
+        
+        <Button
+            android:id="@+id/btn_day_of_week"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/phoneNumber"
+            android:layout_alignRight="@+id/phoneNumber"
+            android:layout_below="@+id/phoneNumber" 
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/gray_selector"
+            android:layout_centerInParent="true"  
+            android:text="@string/btn_brith_day_of_week"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:onClick="onSelectDay"/>
+        
+        <Button
+            android:id="@+id/hero_btn"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/phoneNumber"
+            android:layout_alignRight="@+id/phoneNumber"
+            android:layout_below="@+id/btn_day_of_week"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/blue_selector"
+            android:layout_centerInParent="true"  
+            android:text="@string/btn_auspicious_phone"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:onClick="onConfirm" />
+
+		<View
+		    android:id="@+id/view2"
+	    	android:layout_height="3dip"
+	    	android:layout_width="match_parent"
+	    	android:layout_below="@+id/hero_btn"
+	    	android:background="@color/gray_bold" />
+   		  
+   		<TextView
+   		    android:id="@+id/contactId"
+   		    android:layout_width="wrap_content"
+   		   	android:layout_height="wrap_content"
+   		   	android:layout_below="@+id/view2"
+   		   	android:layout_marginLeft="5dp"
+   		    android:text="@string/txt_contact" />
+   	
+  </RelativeLayout>

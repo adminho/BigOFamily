@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView01"
+    android:background="@drawable/blue_background"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/header1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"
+        android:textSize="20sp"
+        android:textColor="#0000FF"
+        android:focusable="true"
+        android:text="@string/txt_check_heroscope"/> 
+        
+    <TextView
+        android:id="@+id/header2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:textSize="20sp"
+        android:textColor="#0000FF"
+        android:focusable="true"
+        android:text="@string/txt_magic_number"/>
+    
+     
+    <TextView
+       	android:id="@+id/mobileOper"
+       	android:layout_width="match_parent"
+       	android:layout_height="wrap_content"
+       	android:visibility="gone"
+       	android:gravity="center"	
+       	android:layout_marginBottom="10dp"
+       	android:ems="10"
+       	android:textSize="18sp"	
+       	android:textColor="@color/red"/>
+    
+   <LinearLayout 
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_marginBottom="20dp"
+    	android:orientation="horizontal" >
+    	
+        <TextView
+            android:id="@+id/lPhone"
+            android:layout_weight="1"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_marginLeft="5dp"
+            android:text="@string/txt_phone" />
+        
+        <EditText
+            android:id="@+id/phoneNumber"
+            android:layout_weight="3"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/white"
+            android:ems="10"
+            android:textSize="18sp"
+            android:hint="@string/hint_phone_number"
+            android:focusable="false"
+            android:inputType="phone" />
+                
+   	 	 <Button
+       		android:id="@+id/btnSearch"
+        	android:layout_weight="1"
+        	android:layout_width="wrap_content"
+        	android:layout_height="30dp"
+        	android:layout_marginRight="5dp"
+        	android:padding="0dp"
+        	android:background="@drawable/blue_selector"
+        	android:text="@string/btn_search"
+        	android:onClick="onSearch"/>
+        
+    </LinearLayout>
+        
+    <LinearLayout 
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_marginBottom="20dp"
+    	android:orientation="horizontal" >
+    
+        <TextView
+            android:id="@+id/lBrithDate"
+            android:layout_weight="1"
+            android:width="70dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_marginLeft="5dp"
+            android:text="@string/txt_brith_date" />
+                
+   	 	<Button
+       		android:id="@+id/btnDate"
+       		android:layout_weight="3"
+       		android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:background="@drawable/button_background"
+        	android:onClick="onClickDate"/>
+   	 	
+   	 	<TextView
+            android:id="@+id/lPostBirth"
+            android:layout_weight="1"
+            android:width="130dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_marginLeft="5dp"
+            android:text="@string/txt_brith_date_label" />
+   	 	
+   	 	<!-- <DatePicker
+        android:id="@+id/dpId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>-->
+        
+    </LinearLayout>
+   
+    <LinearLayout 
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal" >
+   	 	
+    	<TextView
+            android:id="@+id/lBrithTime"
+            android:layout_weight="1"
+            android:width="70dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_marginLeft="5dp"
+            android:text="@string/txt_brith_time" />
+    
+   		<Button
+        	android:id="@+id/btnTime"
+        	android:layout_weight="3"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:background="@drawable/button_background"
+        	android:onClick="onClickTime"/>
+   		
+   		<TextView
+            android:id="@+id/lPostTime"
+            android:layout_weight="1"
+            android:width="130dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_marginLeft="5dp"
+            android:text="@string/txt_birth_time_label" />
+       
+    	<!-- <TimePicker 
+        android:id="@+id/tpId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>-->
+    </LinearLayout>
+    
+    <Button
+        android:id="@+id/confirm"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:height="30dp"
+        android:width="100dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/blue_selector"
+        android:text="@string/btn_confrim" 
+        android:onClick="onConfrim"/>
+        	
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="2dip"
+        android:background="@color/gray_bold" />
+   		  
+   	<LinearLayout
+      android:id="@+id/footerLayout"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:padding="5dip" 
+      android:onClick="onContact">
+
+   		<!-- <TextView
+   		    android:id="@+id/contactId"
+   		    android:layout_width="wrap_content"
+   		    android:layout_height="wrap_content"
+   		    android:layout_marginLeft="5dp"
+   		    android:textSize="12sp"
+   		    android:textColor="@color/black"
+   		    android:text="@string/txt_contact" />-->
+   		
+   		<TextView
+   		    android:id="@+id/footerAddress"
+   		    android:layout_width="wrap_content"
+   		    android:layout_height="wrap_content"
+   		    android:layout_marginLeft="5dp"
+   		    android:textSize="12sp"
+   		    android:textColor="@color/red"
+   		    android:text="@string/txt_fotter_address" />
+
+	</LinearLayout>
+	
+</LinearLayout>
+
+</ScrollView>

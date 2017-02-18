@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">ดูดวงชะตากับ ครอบครัวตัว อ.</string>
+    <string name="album_name">bigOFamily</string>
+    <string name="service_name">Big Family Service</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="beta">Beta</string>
+    
+    <string name="action_settings">Settings</string>
+    <string name="action_change_lang">Change Lange</string>
+    <string name="action_contact">Contact</string>
+    <string name="action_th">Thai</string>
+    <string name="action_eng">Eng</string>
+    <string name="action_chaina">Chaina</string>
+    <string name="action_hindu">Hindu</string>
+    
+    <string name="header">ใส่ข้อมูลจ้า !</string>
+    <string name="hint_person_name">ชื่อ-นามสกุล</string>
+    <string name="hint_phone_number">เบอร์โทรศัพท์</string>
+    <string name="hint_email">yourmail@xxx.xxx</string>
+    
+    <string name="result_phone">ผลดูดวงจากมือถือ</string>
+    <string name="result_birthday">ผลดูดวงจากวันเกิด</string>
+    
+    <string name="txt_name">ชื่อ</string>
+    <string name="txt_phone">เบอร์</string>
+    <string name="txt_email">เมลล์</string>
+    <string name="txt_welcome">ตัวดวงชะตากับเรา</string>
+    <string name="txt_brand">ครอบครัวตัว อ.</string>
+    <string name="txt_contact">ติดต่อ ครอบครัวตัว อ.</string>
+    <string name="txt_fotter_address">7 ม 4 ถ.โคกกรวด-โนนไทย ต.ขามทะเลสอ อ.ขามทะเลสอ จ.นครราชสีมา 30280 โทร 08-xxxxxx mail: xxxxxxx</string>
+    <string name="txt_putdetail">กรอกรายละเอียด</string>
+    <string name="txt_check_heroscope">ตรวจดวงชะตาด้วย</string>
+    <string name="txt_check_pic">ตรวจลายมือ/โหงวเฮ้ง</string>
+    <string name="txt_check_phone">ตรวจหมายเลขโทรศัพท์</string>
+    <string name="txt_check_name">ตรวจชื่อ-นามสกุล</string>
+    <string name="txt_check_graph">ดูกราฟชีวิต</string>
+    <string name="txt_magic_number">มหัศจรรย์แห่งตัวเลข</string>
+    <string name="txt_brith_date">วันเกิด</string>
+    <string name="txt_brith_time">เวลาเกิด</string>
+    <string name="txt_brith_date_label">วัน-เดือน-ปี</string>
+    <string name="txt_birth_time_label">(ชั่วโมง:นาที)</string>
+    <string name="txt_cannot">Cannot</string>
+    <string name="txt_cannot_suport">เป็นแค่ Demo เท่านั้น ยังใช้งานจริงไม่ได้ จ้า !</string>
+    <string name="txt_no_result_fortune">ไม่มีผลการทำนาย</string>
+                            
+    <string name="btn_auspicious_phone">เบอร์มงคลหรือไม่</string>
+    <string name="btn_auspicious_name">ชื่อมงคลหรือไม่</string>
+    <string name="btn_take_pic">ถ่ายรูปใบหน้า หรือ ลายมือ </string>
+    <string name="btn_confrim">ยืนยันเดี่ยวนี้</string>
+    <string name="btn_search">ค้นหา</string>
+    <string name="btn_brith_day_of_week">เลือกวันที่เกิด</string>
+    <string name="btn_back_to_home">กลับสู่หน้าจอหลัก</string>
+    
+    <string name="toast_next_slide">&lt;&lt;รอซักครู่ หรือแตะที่รูปภาพ &gt;&gt;</string> 
+    <string name="toast_next_flagment">เลื่อนไสลด์</string>
+    <string name="toast_wait">กรุณารอซักครู่</string> 
+    <string name="content_description">Image Content Description</string>
+</resources>

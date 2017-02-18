@@ -1,0 +1,14 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="green_light">#99FF99</color>
+    <color name="gray">#A5C1BA</color>
+    <color name="gray_bold">#CCCCCC</color>
+    <color name="blue">#0000FF</color>
+    <color name="blue_soft">#33B5E5</color>
+    <color name="blue_light">#0099CC</color>
+    <color name="white">#FFFFFF</color>
+    <color name="red">#FF0000</color>
+    <color name="black">#000000</color>
+    <color name="toast">#D8BFD8</color>
+</resources>

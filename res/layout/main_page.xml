@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+ 
+   	<TableRow
+      android:id="@+id/tableRow1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content" 
+      android:layout_gravity="center">
+     
+     <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_check_heroscope"
+        android:layout_span="1"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+  	        
+ 	</TableRow>
+
+	<View
+		android:layout_height="1dip"
+		android:background="@color/gray_bold"/>
+ 
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1">   
+     
+     <ListView
+         android:id="@+id/listView"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+     </ListView>
+  	        
+ 	</LinearLayout>
+
+	<View
+		android:layout_height="1dip"
+		android:background="@color/gray_bold"/>
+   		  
+	<LinearLayout
+      android:id="@+id/footerLayout"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:padding="5dip" 
+      android:onClick="onContact">
+
+   		<!-- <TextView
+   		    android:id="@+id/contactId"
+   		    android:layout_width="wrap_content"
+   		    android:layout_height="wrap_content"
+   		    android:layout_marginLeft="5dp"
+   		    android:textSize="12sp"
+   		    android:textColor="@color/black"
+   		    android:text="@string/txt_contact" />-->
+   		
+   		<TextView
+   		    android:id="@+id/footerAddress"
+   		    android:layout_width="wrap_content"
+   		    android:layout_height="wrap_content"
+   		    android:layout_marginLeft="5dp"
+   		    android:textSize="12sp"
+   		    android:textColor="@color/red"
+   		    android:text="@string/txt_fotter_address" />
+
+	</LinearLayout>
+	
+</TableLayout>
